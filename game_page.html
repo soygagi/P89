@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Adivina la palabra</title>
+	<title>¡Prueba de Matemáticas</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -13,19 +13,24 @@
 <body>
 <h4 id="player1_name"></h4><span id="player1_score"></span>
 <br>
-<h4 id="player2_name"></h4><span id="player_score"></span>
+<h4 id="player2_name"></h4><span id="player2_score"></span>
 
 <div class="container">
 	<center>
-		<h2 style="color: white;">Adivina la palabra</h2>
-        <h3 id="player_question"></h3>
-        <h3 id="player_answer"></h3>
+		<h2 style="color: white;">¡Prueba de Matemáticas!</h2>
+		<h3 id="player_question"></h3>
+		<h3 id="player_answer"></h3>
 		<div id="output" class="col-lg-6"></div>
 		<br>
 		<br>
-		<label>Escribe tu palabra: <b style="color: red">Escribe una palabra con 5 o más letras</b></label>
-        <input typr="text" id="word" class="form-control" placeholder="palabra">
-        <br>
+		<h4>Número 1:</h4>
+		<!--Establece el type a text, id como number1-->
+		<input type="text" id="number1" class="form-control" placeholder="Número 1">
+		<br>
+		<h4>Número 2:</h4>
+		<!--Establece el type a text, id como number2-->
+		<input type="text" id="number2" class="form-control" placeholder="Número 2">
+		<br>
 		<button onclick="send()" class="btn btn-sucess">Enviar</button>
 	</center>
 </div>
